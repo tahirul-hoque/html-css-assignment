@@ -1,0 +1,577 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*styling of the navbar starts from here*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 2rem;
+    font-weight: bold;
+}
+
+@media (max-width:1200px){
+    .navbar ul li a{
+        font-size: 13px;
+    }
+
+    .navbar #logo{
+        width: 20%;
+        height: auto;
+    }
+
+    .navbar section button{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:1000px){
+    .navbar ul li a{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:950px){
+    .navbar ul li a{
+        font-size: 9.2px;
+    }
+}
+
+.navbar section{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.navbar section button{
+    border: none;
+    border-radius: 50px;
+    padding: 0.5rem 2rem;
+    font-size: 20px;
+}
+
+@media (max-width:1200px){
+    .navbar section button{
+        font-size: 14px;
+    }
+}
+/*and ends here here*/
+.hero-section{
+    position: relative;
+    background-color: #fde24f;
+    
+}
+
+@media (max-width:1300px){
+    .hero-section img{
+        width: 50%;
+        height: auto;
+    }
+}
+
+
+.hero-section .child h2{
+    position: absolute;
+    color: #000;
+    font-size: 40px;
+    top: 10%;
+    left: 30%;
+}
+
+@media (max-width:1200px){
+    .hero-section .child h2{
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media (max-width:1000px){
+    .hero-section .child h2{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width:800px){
+    .hero-section .child h2{
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+@media (max-width:500px){
+    .hero-section .child h2{
+        font-size: 13px;
+        text-align: center;
+    }
+}
+
+.hero-section .child .select-box{
+    padding: 120px 50px;
+    margin-top: 30px;
+}
+
+.hero-section .child{
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 10px;
+    top: 25%;
+    left: 20.5%;
+}
+
+@media (max-width: 1200px){
+    .hero-section .child{
+        width: 50%;
+    }
+}
+
+.hero-section .child .selection select{
+    font-size: 20px;
+    width: 180px;
+    padding: 5px 0;
+    margin: 0 7px;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    border: none;
+}
+
+.hero-section .child .select-box .button-box{
+    display: flex;
+    align-items: center;
+    padding: 15px 7px;
+    margin-top: 0;
+    font-size: 20px;
+    height: 70px;
+    border-radius: 5px;
+    gap: 7px;
+}
+
+.hero-section .child .select-box .button-box #how-much{
+    width: 74.5%;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    background-color: #e7e7e7;
+    color: #000;
+}
+
+.hero-section .child .select-box .button-box #find-offer{
+    padding: 10px 35px;
+    margin-left: 12px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: greenyellow;
+    font-size: 20px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.hero-section button u{
+    position: absolute;
+    color: #ddd;
+    border: 3px solid #ddd;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 8px;
+    top: 85%;
+    left: 45%;
+}
+
+
+.buy-sell{
+    background-color: #fde24f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px;
+}
+
+.buy-sell p{
+    padding-bottom: 90px;
+    font-size: 40px;
+}
+.buy-sell img{
+    width: 115%;
+    height: auto;
+}
+
+@media (max-width:1300px){
+    .buy-sell p{
+        font-size: 30px;
+    
+    }
+
+    .buy-sell img{
+        width: 110%;
+    }
+
+}
+
+@media (max-width:1000px){
+    .buy-sell p{
+        font-size: 20px;
+    
+    }
+
+    .buy-sell img{
+        width: 110%;
+        height: auto;
+    }
+
+}
+
+@media (max-width:800px){
+    .buy-sell p{
+        font-size: 15px;
+    
+    }
+}
+
+@media (max-width:600px){
+    .buy-sell p{
+        font-size: 13px;
+    
+    }
+}
+
+@media (max-width:500px){
+    .buy-sell p{
+        font-size: 12px;
+    
+    }
+
+}
+
+
+.feature{
+    position: relative;
+}
+
+.feature #feature{
+    padding: 50px;
+    margin: 45px 0 45px 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+@media (max-width:550px){
+    .feature #feature{
+        font-size: 22px;
+    
+    }
+}
+
+.feature-icon{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 100px 50px 100px;
+}
+
+@media (max-width:1300px){
+    .feature-icon{
+        grid-template-columns: none;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 90px;
+    }
+}
+
+
+
+.feature-icon .secure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.feature-icon .newbie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.feature-icon .payment-method{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.feature .feature-icon #feature-title{
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.feature button{
+    position: absolute;
+    padding: 10px 20px;
+    margin-top: 40px;
+    /* margin-bottom: 40px; */
+    top: 100%;
+    left: 43%;
+    border-radius: 50px;
+    border: 2px solid #000;
+    outline: none;
+    font-size: 20px;
+}
+
+@media (max-width:1300px){
+    .feature button{
+        left: 40%;
+    }
+}
+
+
+/* @media (max-width:1260px){
+    .feature button{
+        left: 40%;
+    }
+} */
+
+@media (max-width:1000px){
+    .feature button{
+        left: 38%;
+    }
+}
+
+@media (max-width:800px){
+    .feature button{
+        left: 36%;
+    }
+}
+
+@media (max-width:600px){
+    .feature button{
+        left: 34%;
+    }
+}
+
+@media (max-width:500px){
+    .feature button{
+        left: 30%;
+    }
+}
+
+
+.buysell-section .border-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 250px;
+    /* margin-left: 50px; */
+    border: 2px solid #000;
+    width: 100%;
+}
+
+@media (max-width:1250px){
+    .buysell-section .border-box{
+    grid-template-columns: none;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+    }
+}
+
+.buysell-section .border-box .buy, .sell{
+    margin-left: 50px;
+}
+
+.buysell-section .buy #para{
+    font-size: 30px;
+    padding: 50px;
+    font-weight: bold;
+}
+
+.buysell-section .buy .zelle, .paypal, .wire{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;;
+    border: 2px solid #000;
+    padding: 20px;
+    width: 80%;
+    border-radius: 15px;
+    margin: 30px 0 30px 50px;
+}
+
+@media (max-width:1300px){
+    .buysell-section .buy .zelle, .paypal, .wire{
+    padding: 10px;
+    }
+}
+
+@media (max-wdith:800px){
+    .buysell-section .buy .zelle #pre{
+        gap: 5px;
+    }
+}
+
+
+@media (max-wdith:800px){
+    .buysell-section .buy .paypal #pre{
+        gap: 5px;
+    }
+}
+
+@media (max-wdith:800px){
+    .buysell-section .buy .wire #pre{
+        gap: 5px;
+    }
+}
+
+.buysell-section .sell #para{
+    font-size: 30px;
+    padding: 50px;
+    font-weight: bold;
+}
+
+.buysell-section .sell .zelle, .paypal, .wire{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;;
+    border: 2px solid #000;
+    padding: 20px;
+    width: 80%;
+    border-radius: 15px;
+    margin: 30px 20px 30px 50px;
+}
+
+@media (max-width:1300px){
+    .buysell-section .sell .zelle, .paypal, .wire{
+    padding: 10px;
+    }
+}
+
+@media (max-width:300px){
+    .buysell-section .sell .zelle, .paypal, .wire{
+    padding: 8px;
+    }
+}
+
+.get-start-section{
+    background-color: #cfbaff;
+    height:450px;
+}
+
+.get-start-section #get-start{
+    padding: 60px;
+    text-align: center;
+    font-size: 75px;
+}
+
+@media (max-width:1500px){
+    .get-start-section #get-start{
+    font-size: 65px;
+    }
+}
+
+@media (max-width:1300px){
+    .get-start-section #get-start{
+    font-size: 55px;
+    }
+}
+
+@media (max-width:1100px){
+    .get-start-section #get-start{
+    font-size: 45px;
+    }
+}
+
+@media (max-width:900px){
+    .get-start-section #get-start{
+    font-size: 35px;
+    }
+}
+
+@media (max-width:700px){
+    .get-start-section #get-start{
+    font-size: 25px;
+    }
+}
+
+@media (max-width:500px){
+    .get-start-section #get-start{
+    font-size: 20px;
+    }
+}
+
+.get-start-section .get-started-btn{
+    font-size: 28px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50px;
+    padding: 20px 35px 20px 35px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #000;
+    padding: 100px;
+}
+
+@media (max-width:950px){
+    .footer{
+        grid-template-columns: none;
+        grid-template-rows: repeat(4, 1fr);
+    }
+}
+
+.footer .product #header1{
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+
+.footer .product p{
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.footer .spacio #header2{
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+
+.footer .spacio p{
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.footer .support #header3{
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+
+.footer .support p{
+    color: #fff;
+    margin-bottom: 5px;
+}
